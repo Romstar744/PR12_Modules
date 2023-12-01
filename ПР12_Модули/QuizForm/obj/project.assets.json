@@ -1,0 +1,111 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "Result/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Result.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Result.dll": {}
+        }
+      },
+      "Task/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Task.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Task.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Result/1.0.0": {
+      "type": "project",
+      "path": "../Result/Result.csproj",
+      "msbuildProject": "../Result/Result.csproj"
+    },
+    "Task/1.0.0": {
+      "type": "project",
+      "path": "../Task/Task.csproj",
+      "msbuildProject": "../Task/Task.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "Result >= 1.0.0",
+      "Task >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\romst\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\колледж\\3 курс\\C#\\ПР12_Модули\\QuizForm\\QuizForm.csproj",
+      "projectName": "QuizForm",
+      "projectPath": "D:\\колледж\\3 курс\\C#\\ПР12_Модули\\QuizForm\\QuizForm.csproj",
+      "packagesPath": "C:\\Users\\romst\\.nuget\\packages\\",
+      "outputPath": "D:\\колледж\\3 курс\\C#\\ПР12_Модули\\QuizForm\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\romst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "D:\\колледж\\3 курс\\C#\\ПР12_Модули\\Result\\Result.csproj": {
+              "projectPath": "D:\\колледж\\3 курс\\C#\\ПР12_Модули\\Result\\Result.csproj"
+            },
+            "D:\\колледж\\3 курс\\C#\\ПР12_Модули\\Task\\Task.csproj": {
+              "projectPath": "D:\\колледж\\3 курс\\C#\\ПР12_Модули\\Task\\Task.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

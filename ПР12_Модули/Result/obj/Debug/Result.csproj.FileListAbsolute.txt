@@ -1,0 +1,6 @@
+D:\колледж\3 курс\C#\ПР12_Модули\Result\bin\Debug\Result.dll
+D:\колледж\3 курс\C#\ПР12_Модули\Result\bin\Debug\Result.pdb
+D:\колледж\3 курс\C#\ПР12_Модули\Result\obj\Debug\Result.csproj.AssemblyReference.cache
+D:\колледж\3 курс\C#\ПР12_Модули\Result\obj\Debug\Result.csproj.CoreCompileInputs.cache
+D:\колледж\3 курс\C#\ПР12_Модули\Result\obj\Debug\Result.dll
+D:\колледж\3 курс\C#\ПР12_Модули\Result\obj\Debug\Result.pdb
